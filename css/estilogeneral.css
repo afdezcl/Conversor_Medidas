@@ -1,0 +1,163 @@
+@font-face {
+font-family: LeagueR;
+src: url(../font/LeagueR.otf);
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url(../images/bg.png);
+}
+a:hover{
+	font-weight: bold;
+}
+td:hover{
+	opacity: 0.9;
+}
+
+.contenedor{
+	position: relative;
+	top: 250px;
+}
+
+div.box p{
+	position: relative;
+	top: 20px;
+	color: rgb(131, 47, 47);
+	font-family: LeagueR;
+	font-size: 85px;
+	font-style: normal;
+}
+
+div.box a{
+	position: relative;
+	top: 50px;
+	font-family: LeagueR;
+	font-size: 50px;
+	color: rgb(204, 88, 130);
+	text-decoration: none; /*para quitar la linea de abajo del link*/
+}
+div.box{
+	margin: 10%;
+	width: 900px;
+	height: 350px;
+	background: rgb(255, 255, 255,.7); /*asi le damos opacidad solo al color y no a toda la estructura*/
+	border-radius: 15px;
+}
+.text{
+	font-size: 30px;
+	font-family: Arial,Helvetica;
+	color: white;
+	border: 0px;
+	background: #808080;
+	width: 325.8px;
+	height: 80px;
+}
+.columna1{
+	font-size: 30px;
+	font-family: Arial,Helvetica;
+	color: white;
+	border: 0px;
+	background: #1E90FF;
+	width: 80px;
+	height: 80px;
+}
+.columna2{
+	font-size: 30px;
+	font-family: Arial,Helvetica;
+	color: white;
+	border: 0px;
+	background: #00BFFF;
+	width: 80px;
+	height: 80px;
+}
+
+
+/*PARA LONGITUD Y PESOS*/
+.select {
+    border: 2px solid #ccc;
+		border-radius: 5px;
+    height: 40px;
+    width: 240px;
+		margin-top: 100px;
+		margin-left: 20px;
+    position: relative;
+    display: inline-block;
+}
+select{
+    height: 40px;
+    padding: 5px;
+    border: 0;
+    font-size: 16px;
+    width: 240px;
+		background: transparent;
+   -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.select:after{
+    content:"\f107";
+    font-family: FontAwesome;
+    color: #000;
+    padding: 12px 8px;
+    position: absolute; right: 0; top: 0;
+    background: transparent;
+    z-index: 1;
+    text-align: center;
+    width: 10%;
+    height: 100%;
+    pointer-events: none;
+    box-sizing: border-box;
+}
+
+input[type="text"]{
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	height: 40px;
+	width: 120px;
+	margin-top: 100px;
+	font-family: LeagueR;
+	padding-left: 15px;
+	font-size: 25px;
+	position: relative;
+	display: inline-block;
+
+}
+
+input[type="text"]#result-input{
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	height: 40px;
+	width: 200px;
+	margin-top: 100px;
+	margin-left: 15px;
+	font-family: LeagueR;
+	padding-left: 15px;
+	font-size: 25px;
+	position: relative;
+	display: inline-block;
+
+}
+input[type="submit"]{
+		width: 100px;
+		height: 40px;
+		margin-left: 20px;
+		font-family: LeagueR;
+		font-size: 20px;
+		background: white;
+		border: 2px solid #8D0D35;
+		border-radius: 5px;
+}
+input[type="submit"]:hover{
+		width: 100px;
+		height: 30px;
+		margin-left: 20px;
+		font-family: LeagueR;
+		font-size: 20px;
+		background: tomato;
+		border: 2px solid #8D0D35;
+		border-radius: 5px;
+}

@@ -1,0 +1,76 @@
+@font-face {
+font-family: LeagueR;
+src: url(../font/LeagueR.otf);
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url(../images/bg.png);
+}
+a:hover{
+	font-weight: bold;
+}
+td:hover{
+	opacity: 0.9;
+}
+
+.contenedor{
+	position: relative;
+	top: 250px;
+}
+
+div.box p{
+	position: relative;
+	top: 20px;
+	color: rgb(131, 47, 47);
+	font-family: LeagueR;
+	font-size: 85px;
+	font-style: normal;
+}
+
+div.box a{
+	position: relative;
+	top: 50px;
+	font-family: LeagueR;
+	font-size: 50px;
+	color: rgb(204, 88, 130);
+	text-decoration: none; /*para quitar la linea de abajo del link*/
+}
+div.box{
+	margin: 10%;
+	width: 900px;
+	height: 450px;
+	background: rgb(255, 255, 255,.7); /*asi le damos opacidad solo al color y no a toda la estructura*/
+	border-radius: 15px;
+}
+.text{
+	font-size: 30px;
+	font-family: Arial,Helvetica;
+	color: white;
+	border: 0px;
+	background: #808080;
+	width: 325.8px;
+	height: 80px;
+}
+.columna1{
+	font-size: 30px;
+	font-family: Arial,Helvetica;
+	color: white;
+	border: 0px;
+	background: #1E90FF;
+	width: 80px;
+	height: 80px;
+}
+.columna2{
+	font-size: 30px;
+	font-family: Arial,Helvetica;
+	color: white;
+	border: 0px;
+	background: #00BFFF;
+	width: 80px;
+	height: 80px;
+}

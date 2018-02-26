@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Conversor de Longitud</title>
+  <link rel="stylesheet" href="css/estilogeneral.css">
+  <link rel="icon" href="images/favicon.ico"/>
+  <script type="text/javascript" src="js/longitud.js"></script>
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"/>
+</head>
+<body>
+  <center>
+    <div class="box">
+      <p>CONVERSOR DE LONGITUD</p>
+      <input type="text" id="valor-input" name="valor-input" placeholder="Introduzca valor" maxlength="5">
+      <div class="select">
+        <select id="longitud" name="longitud">
+          <option value="metros-pies">Metros a pies</option>
+          <option value="metros-pulgadas">Metros a pulgadas</option>
+          <option value="pies-metros">Pies a metros</option>
+          <option value="pulgadas-metros">Pulgadas a metros</option>
+        </select>
+      </div>
+      <input type="submit" name="btn" value="Convertir" onclick="return resultado()">
+      <input type="text" id="result-input" name="result-input" placeholder="Resultado..." readonly>
+    </div>
+  </center>
+</body>
+</html>

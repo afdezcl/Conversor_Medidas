@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Conversor de Pesos</title>
+  <link rel="stylesheet" href="css/estilogeneral.css">
+  <link rel="icon" href="images/favicon.ico"/>
+  <script type="text/javascript" src="js/pesos.js"></script>
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"/>
+</head>
+<body>
+  <center>
+    <div class="box">
+      <p>CONVERSOR DE PESOS</p>
+      <input type="text" name="valor-input" id="valor-input" placeholder="Introduzca valor" maxlength="5">
+      <div class="select">
+        <select name="pesos" id="pesos">
+          <option value="gramos-libras">Gramos a libras</option>
+          <option value="gramos-onzas">Gramos a onzas</option>
+          <option value="libras-gramos">Libras a gramos</option>
+          <option value="onzas-gramos">Onzas a gramos</option>
+        </select>
+      </div>
+      <input type="submit" name="btn" value="Convertir" onclick="return resultado()">
+      <input type="text" id="result-input" name="result-input" placeholder="Resultado..." readonly>
+    </div>
+  </center>
+</body>
+</html>
